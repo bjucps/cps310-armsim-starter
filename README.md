@@ -32,6 +32,8 @@ Import this project into Goland, then run `go mod download` in a terminal window
 
 > Note: To run this project in the future, only `astilectron-bundler` is needed.
 
+An executable that you can run will be placed in the `output/` folder.
+
 ## Project Overview
 
 Within this starter project, you'll find four files that you should be concerned about.  The first is `go.mod`. This
