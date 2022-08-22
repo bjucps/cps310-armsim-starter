@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en" class="h-100">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>ARMSim</title>
+
+        <link rel="stylesheet" href="static/css/astiloader.css">
+        <link rel="stylesheet" href="static/css/astimodaler.css">
+        <link rel="stylesheet" href="static/css/astinotifier.css">
+        <link rel="stylesheet" href="static/css/astiprogresser.css">
+        <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    </head>
+    <body class="d-flex h-100 text-center text-bg-dark">
+
+        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+            <main class="px-3">
+                <h1>Load a File</h1>
+                <div class="row">
+                    <div class="col">
+                        <input id="file" type="file" class="form-control" />
+                    </div>
+                    <div class="col">
+                        <button id="load-file" class="btn btn-lg btn-primary">Load</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        Checksum:
+                    </div>
+                    <div class="col">
+                        <span id="checksum"></span>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <script src="static/js/astiloader.js"></script>
+        <script src="static/js/astimodaler.js"></script>
+        <script src="static/js/astinotifier.js"></script>
+        <script src="static/js/astiprogresser.js"></script>
+        <script src="static/js/jquery.min.js"></script>
+        <script>window.$ = window.jQuery = require('./static/js/jquery.min.js');</script>
+        <script src="static/js/bootstrap.min.js"></script>
+        <script src="static/js/app.js"></script>
+    </body>
+</html>
