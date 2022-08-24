@@ -28,7 +28,7 @@ For more information about the electron portion of the application, refer to the
 > Note: this project uses a bundler to build, you can find [documentation here](https://github.com/asticode/go-astilectron-bundler).
 
 Import this project into Goland, then run `go mod download` in a terminal window of your choice. Add `$GOPATH/bin` to your
-`PATH`. Then run `go mod tidy`, followed by `go get -u github.com/asticode/go-astilectron-bundler` followed by `astilectron-bundler`.
+`PATH`. Then run `go mod tidy`, followed by `go install github.com/asticode/go-astilectron-bundler/astilectron-bundler` followed by `astilectron-bundler`.
 
 > Note: To run this project in the future, only `astilectron-bundler` is needed.
 
